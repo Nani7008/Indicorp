@@ -12,3 +12,53 @@
   background-size: cover;
   padding-top: 80px;
 }
+
+
+#intro {
+        
+  .wrapper {
+          display: flex;
+          flex-direction: column;
+          padding-top: 80px;
+  &__top  {
+      width: 509px;
+
+      h1 {
+          @extend %custom-h1-style
+      }
+
+      h4 {
+          @extend %custom-h4-style
+      }
+
+      &__buttons {
+       
+        display: flex;
+        flex-direction: row;
+        margin-top: 35px;
+        gap: 10px;
+
+        &--quote {
+          @extend %custom-button-style;
+          background-color: #F2AA48;
+          color: #ffff;
+          border: none;
+        }
+
+        &--learn {
+          @extend %custom-button-style; 
+            border: 1px solid rgba(0, 160, 193, 1);
+            width: 157px;
+            background-color: transparent;
+            color: #479EBD;
+            
+
+          
+        }
+
+      }
+
+          }
+  }
+}
+

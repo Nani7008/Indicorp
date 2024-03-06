@@ -317,10 +317,34 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 1440px;
+}
+
+#intro .wrapper__top h1 {
+  font-family: Montserrat;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: rgb(37, 43, 66);
+}
+
+#intro .wrapper__top h4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: rgb(115, 115, 115);
 }
 
 header {
@@ -377,12 +401,19 @@ header .nav__menu {
   cursor: pointer;
 }
 
-#intro .wrapper {
-  display: flex;
-  flex-direction: column;
-}
-#intro .wrapper__top {
-  background-color: red;
+#intro .wrapper__top__buttons--learn, #intro .wrapper__top__buttons--quote {
+  width: 187px;
+  height: 48px;
+  padding: 10px 36px 10px 36px;
+  border-radius: 37px;
+  gap: 10px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  cursor: pointer;
 }
 
 #intro {
@@ -391,4 +422,30 @@ header .nav__menu {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 80px;
+}
+
+#intro .wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+#intro .wrapper__top {
+  width: 509px;
+}
+#intro .wrapper__top__buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  gap: 10px;
+}
+#intro .wrapper__top__buttons--quote {
+  background-color: #F2AA48;
+  color: white;
+  border: none;
+}
+#intro .wrapper__top__buttons--learn {
+  border: 1px solid rgb(0, 160, 193);
+  width: 157px;
+  background-color: transparent;
+  color: #479EBD;
 }/*# sourceMappingURL=style.css.map */
