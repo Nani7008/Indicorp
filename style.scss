@@ -88,8 +88,8 @@
     justify-content: space-between;
   }
 }
-// Reason section ends 
-// Practice section starts 
+// Reason section ends
+// Practice section starts
 
 #practice {
   background-color: #fafafa;
@@ -100,16 +100,16 @@
     align-items: center;
     padding-top: 80px;
 
-   p {
-        margin-top: 10px;
-        text-align: center;
-        padding-bottom: 45px;
-   }
+    p {
+      margin-top: 10px;
+      text-align: center;
+      padding-bottom: 45px;
+    }
 
-   .card__list {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-   }
+    .card__list {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
   }
 }
