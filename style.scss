@@ -1,0 +1,14 @@
+@import "./sass/base/importbase" ;
+@import "./sass/abstracts/importabstracts" ;
+@import './sass/layout/layoutimport';
+@import './sass/components/importcomponents';
+@import './sass/pages/pagesimport';
+
+
+#intro {
+  height: calc(100vh - 128px);
+  background-image: url("./assets/images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+}
