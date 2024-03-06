@@ -366,6 +366,15 @@ p {
   color: rgb(115, 115, 115);
 }
 
+h5 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+}
+
 header {
   position: fixed;
   display: flex;
@@ -485,6 +494,20 @@ header .nav__menu {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
+#practice .wrapper .card__list--item {
+  width: 238px;
+  height: 341px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  cursor: pointer;
+}
+#practice .wrapper .card__list--item:hover {
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
 #intro {
   background-image: url("./assets/images/cover.jpg");
   background-repeat: no-repeat;
@@ -536,6 +559,7 @@ header .nav__menu {
   justify-content: center;
   padding-top: 312px;
   gap: 50px;
+  padding-bottom: 80px;
 }
 #reason .wrapper p {
   text-align: center;
@@ -546,4 +570,25 @@ header .nav__menu {
   gap: 30px;
   align-items: center;
   justify-content: space-between;
+}
+
+#practice {
+  background-color: #fafafa;
+}
+#practice .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+#practice .wrapper p {
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 45px;
+}
+#practice .wrapper .card__list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }/*# sourceMappingURL=style.css.map */
