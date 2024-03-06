@@ -347,6 +347,25 @@ ul {
   color: rgb(115, 115, 115);
 }
 
+h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: rgb(115, 115, 115);
+}
+
 header {
   position: fixed;
   display: flex;
@@ -415,13 +434,63 @@ header .nav__menu {
   text-align: center;
   cursor: pointer;
 }
+#intro .wrapper__top__buttons--learn:hover, #intro .wrapper__top__buttons--quote:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-decoration: underline;
+}
+
+#intro .wrapper__bot__card {
+  background-color: #fff;
+  width: 328px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 21px 35px 40px;
+  cursor: pointer;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+#intro .wrapper__bot__card:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#intro .wrapper__bot__card h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+  margin-top: 10px;
+  color: rgb(37, 43, 66);
+}
+#intro .wrapper__bot__card:nth-child(3) {
+  background-color: #479ebd;
+}
+#intro .wrapper__bot__card:nth-child(3) h3,
+#intro .wrapper__bot__card:nth-child(3) p {
+  color: #fff;
+}
+
+#reason .wrapper__bottom__box {
+  width: 238px;
+  height: 209px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+#reason .wrapper__bottom__box:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
 
 #intro {
-  height: calc(100vh - 128px);
   background-image: url("./assets/images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 80px;
+  height: 793px;
 }
 
 #intro .wrapper {
@@ -439,13 +508,42 @@ header .nav__menu {
   gap: 10px;
 }
 #intro .wrapper__top__buttons--quote {
-  background-color: #F2AA48;
+  background-color: #f2aa48;
   color: white;
   border: none;
 }
 #intro .wrapper__top__buttons--learn {
   border: 1px solid rgb(0, 160, 193);
-  width: 157px;
+  width: 158px;
   background-color: transparent;
-  color: #479EBD;
+  color: #479ebd;
+}
+#intro .wrapper__bot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 80px;
+  gap: 30px;
+}
+
+#reason {
+  background-color: #fafafa;
+}
+#reason .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 312px;
+  gap: 50px;
+}
+#reason .wrapper p {
+  text-align: center;
+}
+#reason .wrapper__bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

@@ -1,38 +1,35 @@
-@import "./sass/base/importbase" ;
-@import "./sass/abstracts/importabstracts" ;
-@import './sass/layout/layoutimport';
-@import './sass/components/importcomponents';
-@import './sass/pages/pagesimport';
-
+@import "./sass/base/importbase";
+@import "./sass/abstracts/importabstracts";
+@import "./sass/layout/layoutimport";
+@import "./sass/components/importcomponents";
+@import "./sass/pages/pagesimport";
 
 #intro {
-  height: calc(100vh - 128px);
+  // height: calc(100vh - 128px);
   background-image: url("./assets/images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 80px;
+  height: 793px;
 }
 
-
 #intro {
-        
   .wrapper {
-          display: flex;
-          flex-direction: column;
-          padding-top: 80px;
-  &__top  {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    &__top {
       width: 509px;
 
       h1 {
-          @extend %custom-h1-style
+        @extend %custom-h1-style;
       }
 
       h4 {
-          @extend %custom-h4-style
+        @extend %custom-h4-style;
       }
 
       &__buttons {
-       
         display: flex;
         flex-direction: row;
         margin-top: 35px;
@@ -40,25 +37,55 @@
 
         &--quote {
           @extend %custom-button-style;
-          background-color: #F2AA48;
+          background-color: #f2aa48;
           color: #ffff;
           border: none;
         }
 
         &--learn {
-          @extend %custom-button-style; 
-            border: 1px solid rgba(0, 160, 193, 1);
-            width: 157px;
-            background-color: transparent;
-            color: #479EBD;
-            
-
-          
+          @extend %custom-button-style;
+          border: 1px solid rgba(0, 160, 193, 1);
+          width: 158px;
+          background-color: transparent;
+          color: #479ebd;
         }
-
       }
-
-          }
+    }
+    &__bot {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 80px;
+      gap: 30px;
+    }
   }
 }
+
+// Intro section ends
+
+// Reason section starts
+#reason {
+  background-color: #fafafa;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 312px;
+    gap: 50px;
+
+    p {
+      text-align: center;
+    }
+  }
+
+  .wrapper__bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+// Reason section ends 
 
