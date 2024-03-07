@@ -375,6 +375,16 @@ h5 {
   text-align: left;
 }
 
+h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
 header {
   position: fixed;
   display: flex;
@@ -650,6 +660,7 @@ header .nav__menu {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 #partners .wrapper .partners {
   display: flex;
@@ -657,4 +668,50 @@ header .nav__menu {
   gap: 100px;
   align-items: center;
   justify-content: space-between;
+}
+#partners .wrapper .wrapper__bottom {
+  margin-top: 20px;
+  display: flex;
+  gap: 180px;
+  width: 986px;
+  height: 124px;
+  background-color: #326778;
+  align-items: center;
+  justify-content: space-around;
+}
+#partners .wrapper .wrapper__bottom__left h3 {
+  color: white;
+}
+#partners .wrapper .wrapper__bottom__right label {
+  width: 450px;
+  height: 58px;
+}
+#partners .wrapper .wrapper__bottom__right label input {
+  height: 58px;
+  width: 333px;
+  border-radius: 5px;
+  border: 1px solid rgb(230, 230, 230);
+  outline: none;
+  text-align: left;
+  padding-left: 15px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+#partners .wrapper .wrapper__bottom__right label button {
+  width: 117px;
+  height: 58px;
+  border-radius: 5px;
+  background-color: rgb(255, 166, 43);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#color {
+  height: calc(25vh - 128px);
+  margin-top: -65px;
 }/*# sourceMappingURL=style.css.map */
