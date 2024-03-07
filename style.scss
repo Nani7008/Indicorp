@@ -123,6 +123,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 100px;
 
     p {
       text-align: center;
@@ -166,6 +167,27 @@
           }
         }
       }
+    }
+  }
+}
+// Service page ends
+
+// Partners section starts
+#partners {
+  background-color: #fafafa;
+
+  .wrapper {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .partners {
+      display: flex;
+      flex-direction: row;
+      gap: 100px;
+      align-items: center;
+      justify-content: space-between;
     }
   }
 }

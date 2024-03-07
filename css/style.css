@@ -602,6 +602,7 @@ header .nav__menu {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 #service .wrapper p {
   text-align: center;
@@ -639,4 +640,21 @@ header .nav__menu {
 #service .wrapper__center__right__bot--right p {
   margin-top: 5px;
   margin-bottom: 30px;
+}
+
+#partners {
+  background-color: #fafafa;
+}
+#partners .wrapper {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#partners .wrapper .partners {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
