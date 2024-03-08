@@ -1,0 +1,38 @@
+footer {
+    background-color: #326778;
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 272px;
+        padding-top: 40px;
+
+        span {
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+        }
+
+        ul a {
+            margin-top: 15px;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.20000000298023224px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+        }
+
+        ul li {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
