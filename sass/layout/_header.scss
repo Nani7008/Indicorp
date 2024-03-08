@@ -5,6 +5,8 @@ header {
     height: 104px;
     align-items: center;
     justify-content: space-between;
+    background-color: #787878d4;
+    
 
     .nav {
         display: flex;
@@ -12,6 +14,7 @@ header {
         justify-content: space-between;
         align-items: center;
         gap: 500px;
+        
 
         &__logo {
             font-family: Montserrat;
@@ -41,7 +44,7 @@ header {
             line-height: 24px;
             letter-spacing: 0.20000000298023224px;
             text-align: center;
-            color: rgba(115, 115, 115, 1);
+            color: rgb(65, 64, 64);
             transition: all 0.3s ease;
 
             &:hover {
